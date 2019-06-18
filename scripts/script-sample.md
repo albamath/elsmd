@@ -4,10 +4,10 @@ author: |
   Scripted Talker  
   University of Careful Planning
 date: May 1, 1894
-mainfont: Hoefler Text
+mainfont: TeX Gyre Pagella
 mainfontoptions:
  - Numbers=OldStyle
-sansfont: Gill Sans
+sansfont: TeX Gyre Heros
 biblatex: true
 biblatex-chicago: true
 biblatexoptions: [notes, noibid]

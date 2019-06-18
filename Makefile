@@ -27,7 +27,7 @@ SCRIPTS := scripts
 SCURO := true
 
 # Extra options to pandoc. Note that certain options set here are overridden.
-PANDOC_OPTIONS := 
+PANDOC_OPTIONS := --slide-level=2 --table-of-contents
 
 ## ---- special external files ----
 
