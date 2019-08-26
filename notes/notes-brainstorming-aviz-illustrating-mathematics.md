@@ -18,11 +18,15 @@ What I mean by illustrations: images, tangible objects, interactive pieces of so
 
 . . .
 
-**Problem:**
+**My personal, concflicted view on it:**
 
 - On one side, a concrete illustration representing an abstract object modifies the perception of this abstract object and the internalized knowledge we have of it.
 
 - On the other side, many abstract mathematical concepts that do not possess "nice" illustrations (yet) remain esoteric and their knowledge and perception is reserved to a narrow set of specialists. 
+
+\note{
+In my next postdoc, I will be producing a lot of mathematical objects. My personal motivation is to make them pass from abstract to concrete and see the effect this concrete illustrations have on people. 
+}
 
 # First example : Kummer surfaces
 
@@ -30,74 +34,54 @@ What I mean by illustrations: images, tangible objects, interactive pieces of so
 
 \note{
 Surfer image.
+Lancer vidéo.
 }
 
-## And a block
+# ...a formal definition
 
-And some text underneath.
-
+The Kummer variety of the Jacobian variety of a smooth hyperelliptic curve of genus 2 is a quotient of the Jacobian by the Kummer involution x ↦ −x. The Kummer involution has 16 fixed points: the 16 2-torsion point of the Jacobian, and they are the 16 singular points of the quartic surface.
 
 \note{
-
-Here are my notes.
-
+wikipedia
 }
 
-# Second example : Proof visualisation
+# Second example : using non-flat mathematical surfaces for visualising other data
 
-- With a
-- list.
+![My own pseudospherical earth](../media/terre-pseudospherique.jpg)\
+
+\note{
+Image de sculpteo, je n'ai pas trouvé la photo.
+Projet initié après une suggestion des responsables math du Palais de la découverte.
+Idée: rendre un objet peu familier (la surface), plus familier on y projettant un 
+}
+
+# Third example : Proof visualisation
+
+Logipedia: databasis of mathematical proofs
+
+![Example of a theorem on Logipedia](../media/logipedia-example.jpg)\
+
+# Brainstorming questions for the public
+
+- Would you like to own/have access to an illustration of a mathematical object/proof, why ?
+
+. . .
+
+- For quite a long time, and still today, quite many professional mathematicians try to avoid using illustrations in their research. Can you imagine why ? How to make them like concrete objects/illustrations again?
+
+. . .
+
+- How would you measure the impact of the illustration, the cost?
+
+. . .
+
+- Do you like better to see an image of a mathematical object made by a non-mathematician or made by a mathematician ?
+
+# Bonus: Dali's vision of a hypercube
+
+![Dali's crucifixion](../media/dali-hypercube.jpg)\
 
 ::: notes
 
-A note on my list.
-
+Don't forget the brainstorming
 :::
-
-# A slide to show overlay tricks
-
-\only<1,3>{This text appears on the first and third versions of the slide, but not the second.}
-
-This uses beamer's highlighting command to \alert<2>{draw attention here}, but only on the second slide.
-
-\note<1>{
-
-Notes can also have overlay specs. First slide version note.
-
-}
-
-\note<2>{
-
-Second.
-
-}
-
-\note<3>{
-
-And third. Use \LaTeX\ macros in notes, like \emph{emphasis}.
-
-}
-
-# TeX-LOGO
-
-\begin{textblock}{4}(0,1)
-Grid demo UL
-\end{textblock}
-
-\begin{textblock}{4}(7,1)
-Grid demo UR
-\end{textblock}
-
-\begin{textblock}{4}(0,5)
-Grid demo LL
-\end{textblock}
-
-\begin{textblock}{4}(7,5)
-\only<2>{Grid demo LR}
-\end{textblock}
-
-\note<2>{
-
-To get overlay effects with materials placed using \texttt{textpos}, you have to specify the overlay within the \texttt{textblock} environment.
-
-}

@@ -10,7 +10,7 @@ latex_quiet := true
 # regeneration. If you have many talks it probably makes more to take this
 # manual option.
 # always_latexmk := true
-always_latexmk := 
+always_latexmk :=
 
 # Set to anything non-empty to use xelatex rather than pdflatex. I always do
 # this in order to use system fonts and better Unicode support. pdflatex is
@@ -27,7 +27,7 @@ SCRIPTS := scripts
 SCURO := true
 
 # Extra options to pandoc. Note that certain options set here are overridden.
-PANDOC_OPTIONS := --slide-level=2 --table-of-contents
+PANDOC_OPTIONS := --slide-level=1 --table-of-contents
 
 ## ---- special external files ----
 
